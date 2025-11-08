@@ -31,9 +31,10 @@ v = int(input("Enter number of vertex: "))
 n = int(input("Enter number of edges: "))
 
 edges = []
-print("Enter edges (start end):")
+print("Enter edges:")
 for i in range(n):
-    start, end = map(int, input().split())
+    start = int(input("Start: "))
+    end = int(input("End: "))
     edges.append(Edge(start, end))
 
 graph = create_graph(edges, n, v)

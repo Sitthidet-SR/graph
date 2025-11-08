@@ -19,22 +19,30 @@ python graph.py
 2. ใส่ข้อมูล:
    - จำนวน vertices (จุดยอด)
    - จำนวน edges (เส้นเชื่อม)
-   - คู่ของ edges แต่ละเส้น (start end)
+   - สำหรับแต่ละ edge ให้ใส่ start และ end แยกกัน
 
 ## ตัวอย่าง
 
 ```
-Enter number of vertices: 5
+Enter number of vertex: 5
 Enter number of edges: 8
-Enter edges (start end):
-0 1
-0 2
-0 3
-1 2
-1 3
-2 3
-1 4
-3 4
+Enter edges:
+Start: 0
+End: 1
+Start: 0
+End: 2
+Start: 0
+End: 3
+Start: 1
+End: 2
+Start: 1
+End: 3
+Start: 2
+End: 3
+Start: 1
+End: 4
+Start: 3
+End: 4
 ```
 
 ## ผลลัพธ์
